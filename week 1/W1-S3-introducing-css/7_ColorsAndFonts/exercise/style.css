@@ -57,6 +57,10 @@ header p {
     margin: 0;
     font-size: 16px;
 }
+.exercise-box {
+    background-color: lightgoldenrodyellow;
+    font-family: Courier New;
+}
 
 #box-1 {
     background-color: lightblue;
@@ -68,4 +72,19 @@ header p {
     background-color: lightgreen;
     font-family: 'Times New Roman', Times, serif
     /* Green */
+}
+.box-3 {
+    background-color: lightcoral;
+    font-family: 'Verdana', Times, serif
+    
+}
+.box-5 {
+    background-color: lightsalmon;
+    font-family: 'Georgia'
+    
+}
+.box-6 {
+    background-color: lightpink;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    
 }
