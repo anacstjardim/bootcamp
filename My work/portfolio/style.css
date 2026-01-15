@@ -129,6 +129,17 @@ h2 {
     margin-bottom: 20px;
 }
 
+a {
+    color: var(--dark-gold);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
 .status-badge {
     background: var(--primary-gold);
     color: var(--bg-charcoal);
