@@ -1,5 +1,5 @@
 AI Engineer & Full-Stack Portfolio | Ana J.
-Live Demo: [Insert Your GitHub Pages Link Here]
+Live Demo: (https://github.com/anacstjardim/bootcamp/blob/main/My%20work/portfolio/portfolio.html)
 
 🚀 Mission
 A high-performance, responsive portfolio showcasing 15+ years of IT expertise and cutting-edge AI integration. This project demonstrates mastery in semantic HTML5, modern CSS3 (Grid/Flexbox), and WCAG 2.2 accessibility standards.
