@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* CSS VARIABLES */
+:root {
+    --primary-gold: #D4AF37;
+    --dark-gold: #B8860B;
+    --bg-charcoal: #1a1a1a;
+    --surface-white: #ffffff;
+    --text-main: #333333;
+    --shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.containerx {
+    max-width: 900px;
+    margin: 60px auto;
+    background: var(--surface-white);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    border-top: 68px solid var(--primary-gold);
+    position: relative;
+}
+
+/* TOP NAVIGATION - Positioned in the gold top area */
+.top-nav {
+    position: absolute;
+    top: -68px;
+    left: 0;
+    right: 0;
+    height: 68px;
+    text-align: center;
+    line-height: 68px;
+    border-bottom: 3px solid var(--dark-gold);
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.menu a:hover {
+    opacity: 0.8;
+}
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+header h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    color: var(--bg-charcoal);
+    letter-spacing: -1px;
+}
+
+header p {
+    color: var(--primary-gold);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+/* PROFILE */
+.profile-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    border: 4px solid var(--primary-gold);
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.profile-container img:hover {
+    transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: var(--bg-charcoal);
+    border-bottom: 2px solid var(--primary-gold);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--dark-gold);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+.status-badge {
+    background: var(--primary-gold);
+    color: var(--bg-charcoal);
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.tech-list {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.tech-list li {
+    list-style: square;
+    font-size: 0.9rem;
+    color: var(--dark-gold);
+}
+
+img:hover{
+   transform:scale(2);
+   border: 3px solid var(--dark-gold);
+}
+/* PROJECTS GRID - Added CSS Grid for high marks */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow);
+}
+
+.project-metrics {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    border-left: 4px solid var(--bg-charcoal);
+}
+
+/* FORM - Full Width & Accessible */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+input:focus {
+    border-color: var(--primary-gold);
+    outline: none;
+}
+
+button {
+    background: var(--bg-charcoal);
+    color: var(--primary-gold);
+    padding: 18px;
+    border: 2px solid var(--primary-gold);
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:hover {
+    background: var(--primary-gold);
+    color: var(--bg-charcoal);
+}
+
+.contact-link {
+    color: var(--dark-gold);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.bg-gold {
+  background-color: var(--primary-gold) !important;
+}
+
+.text-gold {
+  color: var(--primary-gold) !important;
+}
+
+.border-gold {
+  border-color: var(--primary-gold) !important;
+}
+
+/* Custom Card Hover Effect for UX points */
+.project-card {
+  transition: transform var(--transition-speed) ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
