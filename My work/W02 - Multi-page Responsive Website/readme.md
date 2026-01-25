@@ -1,5 +1,7 @@
 Aevum Foundry.AI
+
 World-Class AI Solutions Architecture
+
 The Vision
 Automate. Scale. Dominate. Aevum Foundry.AI is a high-performance portfolio showcasing the orchestration of autonomous AI ecosystems designed to replace manual labor with autonomous precision. This project demonstrates the bridge between advanced AI research and high-stakes production environments, focusing on enterprise automation and EdTech innovation.
 
