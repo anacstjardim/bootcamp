@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ana J. - Full-Stack Developer & AI Engineer specializing in EdTech solutions.">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ana J. | AI Architect & Full-Stack Developer</title>
+</head>
+<body>
+
+    <div class="container">
+    	    <nav class="top-nav" aria-label="Main Navigation">
+        	<ul class="menu">
+            		<li><a href="#about">About</a></li>
+            		<li><a href="#projects">Projects</a></li>
+            		<li><a href="#contact">Contact</a></li>
+        	</ul>
+    	    </nav>
+
+        <header>
+            <!--image banner here-->
+<img src="photo.jpg" alt="Professional portrait of Ana J." width="200" height="200">
+        </header>
+        
+        <main>
+       
+
+            <section id="about">
+    <div class="content-section">
+        <h2>About us/news</h2>
+        </div>
+         
+        </section>
+<section id="services">
+    <div class="content-section">
+        <h2>Title</h2>
+        <p>text</p>
+        
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="status-badge"></div>
+                <h3>service 1</h3>
+                <p>text</p>             
+            </article>
+
+            <article class="project-card">
+                <div class="status-badge"></div>
+                <h3>service 2</h3>
+                <p>text</p>             
+            </article>
+
+
+	    <article class="project-card">
+                <div class="status-badge"></div>
+                <h3>service 3</h3>
+                <p>text</p>             
+            </article>
+        </div>
+    </div>
+</section>
+
+           
+
+    <footer>
+        <p>some footer text</p>
+    </footer>
+
+</body>
+</html>
+
+we are training the marketing model of the Our Business AI Clone marketing department. and working on the cutting_edge_training_complete.py script. read  d:\marketing.md to understand content and the cursor rules. 
+use mergekit and ties for merging models - i still want all those models merged and do the full complete training

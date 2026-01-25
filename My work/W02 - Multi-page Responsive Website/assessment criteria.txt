@@ -1,0 +1,20 @@
+Technical Implementation	
+Fully meets all technical specs: Flexbox, pseudo-elements, CSS vars, 4 pages, semantic HTML, nav & contact form.
+
+Styling & CSS Quality	
+High-quality styling: external CSS, hover states, box model, CSS vars, consistent typography.
+
+Responsiveness & Device Adaptability	
+Fully responsive using media queries/Flexbox; smooth layout across all devices.
+
+Code Quality & Accessibility	
+Clean, valid code with semantic HTML and accessible attributes; no broken links
+
+Project Deployment	
+Deployed online via GitHub Pages; live URL works and assets load correctly
+
+Repository Quality	
+Repo is well-named, structured; commit history meaningful; README complete
+
+Design and UX	
+Clean, cohesive UX; consistent styling and intuitive layout
