@@ -1,0 +1,22 @@
+ 
+
+Technical Implementation	
+Add, delete, validate tasks; dynamic rendering; bonus edit feature fully functional.
+
+JavaScript & DOM Manipulation	
+Modular JS with arrays/objects for tasks; clean event handling; real-time DOM sync.
+
+Input Validation & Error Handling	
+Empty input blocked, warnings shown, duplicate prevention included.
+
+Bonus Feature – Task Editing	
+Full edit/save UI; synced with DOM and array; smooth UX .
+
+Project Deployment	
+Live on GitHub Pages; all styles/scripts/assets working; link provided.
+
+Deployment	
+Live GitHub Pages site works perfectly; link submitted.
+
+Repository Quality	
+Visually polished; Clean repo name, detailed README, logical structure, good commits.
