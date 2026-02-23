@@ -1,0 +1,22 @@
+
+Technical Implementation	
+Geocoding, API fetch, and UI update all work smoothly with correct error handling
+
+JavaScript & API Integration	
+Modular, clear JS; secure API use; correctly parses JSON; no hard-coded keys
+
+UI Implementation & DOM Manipulation	
+Manipulation (15%) Weather data displayed dynamically; clear, semantic layout; mobile-friendly
+
+Error Handling & Input Validation	
+Handles API failures and invalid inputs with helpful messages; shows status/loading
+
+Code Quality & Project Structure	
+Cleanly organized code; consistent formatting; modular functions and comments.
+
+Team Participation & Effort	
+All members contribute equally to code, testing, or docs; visible commits and peer feedback.
+
+Collaboration & GitHub Workflow	
+Branches, pull requests used; clear commits and strong README.md .
+
