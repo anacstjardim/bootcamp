@@ -15,7 +15,6 @@ function search() {
 
   weatherDiv.style.display = "none";
 
-  //lat and lon for the city
   var geoUrl = "https://geocoding-api.open-meteo.com/v1/search?name=" + encodeURIComponent(city) + "&count=1";
   fetch(geoUrl)
     .then(function(res) {
@@ -33,10 +32,6 @@ function search() {
       var country = geoData.results[0].country || geoData.results[0].country_code || "";
       if (country) name = name + ", " + country;
 
-
-
-
-      // then weather
       var weatherUrl = "https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon + "&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&timezone=auto";
       return fetch(weatherUrl).then(function(res) {
         return res.json();
@@ -63,7 +58,6 @@ function search() {
     });
 }
 
-// weather code
 function weatherDesc(code) {
   if (code === 0) return "Clear";
   if (code >= 1 && code <= 3) return "Cloudy";
@@ -75,7 +69,6 @@ function weatherDesc(code) {
   return "Cloudy";
 }
 
-// little emoji just to trick Jason's AI detector
 function getWeatherEmoji(code) {
   if (code === 0) return "\u2600";
   if (code >= 1 && code <= 3) return "\u2601";
